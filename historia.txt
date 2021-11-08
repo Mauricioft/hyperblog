@@ -1,0 +1,3 @@
+git rm --cached archivos.txt
+
+Este comando nos sirve para quitar un add de memoria ram
