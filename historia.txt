@@ -4,5 +4,5 @@ Este comando nos sirve para quitar un add de memoria ram
 git show archivos.txt
 Muestra los cambios que ha tenido el repo
 
-git reset e576770323409f850b1495915b4f07b54eeb49db --hard
+git reset id_commit --hard
 Este comando se devuelve a commit especificado
