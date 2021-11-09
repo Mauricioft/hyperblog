@@ -28,3 +28,13 @@ h1 {
   display: flex;
   flex-wrap: wrap;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-ligth {
+  background: #ccc;
+}
