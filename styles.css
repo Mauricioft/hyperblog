@@ -1,5 +1,30 @@
+:root {
+  --bs-dark-rgb: 33,37,41;
+  --bs-white-rgb: 255,255,255;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
+  background-color: rgba(var(--bs-dark-rgb), 1);
+  color: rgba(var(--bs-white-rgb), 1);
+}
+
+h1 {
+  color: #212529;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
 }
