@@ -6,3 +6,6 @@ Muestra los cambios que ha tenido el repo
 
 git reset id_commit --hard
 Este comando se devuelve a commit especificado
+
+git log --stat
+Muestra los archivos cambiados a partir del commmit 
