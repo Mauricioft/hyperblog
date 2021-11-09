@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Helvetica, sans-serif;
   text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
   background-color: rgba(var(--bs-dark-rgb), 1);
   color: rgba(var(--bs-white-rgb), 1);
