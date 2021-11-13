@@ -10,7 +10,7 @@
 }
 
 html {
-  font-size: 64.5%;
+  font-size: 1rem;
 }
 
 body {
@@ -29,12 +29,17 @@ h1 {
   flex-wrap: wrap;
 }
 
-.nav {
+.navbar {
+  position: relative;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
-  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-.nav-ligth {
-  background: #ccc;
+.bd-navbar {
+  padding: 0.75rem 0;
+  background-color: #7952b3;
 }
